@@ -2,14 +2,7 @@
 This a python application using flask that allows users to post one minute pitches. The users in this case can make a pitch in any  given category of choice and they can also leave comments on pitches by other users. It includes a database where user details are stored once signed up.
 
 ## Author
-
-## BDD
-| Behaviour     |  Input          | Output        |
-| :-----------: |:---------------:| :-----------: |
-|Register new user|Username,email,password|Login form|
-|Login user with the registered credentials|email and password|Home page of the app with latest pitches displayed|
-|Create new pitch|Title, the pitch, category of the pitch|Succes message for pitch creation and pitch added to latest pitches|
-|Add new comment|The comment(click on submit button)|Success message and the comment on pitch|
+Amon Wanyonyi
 
 ## Technologies Used
 - Flask
@@ -41,4 +34,4 @@ xxx110680@gmail.com
 ## Live Link
 
 ## License
-MIT Licence (c)
+MIT Licence (c) 2022
