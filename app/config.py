@@ -5,7 +5,7 @@ import os
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://amon:110680@localhost/pitch2'
+    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://amon:110680@localhost/amon'
 
     
     
@@ -35,7 +35,7 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://amon:110680@localhost/pitch2'
+    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://amon:110680@localhost/amon'
     DEBUG = True
     
     
